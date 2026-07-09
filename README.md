@@ -7,6 +7,7 @@ A simple C# console application for creating and managing matcha drink orders.
 ![C#](https://img.shields.io/badge/C%23-Console%20App-8A2BE2?style=for-the-badge&logo=csharp)
 ![.NET](https://img.shields.io/badge/.NET-Application-512BD4?style=for-the-badge&logo=dotnet)
 ![OOP](https://img.shields.io/badge/OOP-Applied-2E8B57?style=for-the-badge)
+![SOLID](https://img.shields.io/badge/SOLID-Principles%20Applied-228B22?style=for-the-badge)
 ![Design Patterns](https://img.shields.io/badge/Design%20Patterns-Factory%20%7C%20Strategy-6B8E23?style=for-the-badge)
 
 </div>
