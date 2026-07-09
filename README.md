@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍵 Matcha Bar Ordering System
+# Matcha Bar Ordering System
 
 A simple C# console application for creating and managing matcha drink orders.
 
@@ -13,23 +13,17 @@ A simple C# console application for creating and managing matcha drink orders.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-**Matcha Bar Ordering System** is a console-based ordering application built using C#.
+Matcha Bar Ordering System is a console-based ordering application built using C#.
 
 The system allows users to create matcha drink orders by selecting a drink, size, toppings, and discount type. After completing the order, the program calculates the subtotal, applies the selected discount, and prints a formatted receipt.
 
-The main focus of this project is to apply:
-
-- Object-Oriented Programming
-- SOLID Principles
-- Clean Code
-- Factory Pattern
-- Strategy Pattern
+The main focus of this project is to apply Object-Oriented Programming, SOLID principles, Clean Code practices, Factory Pattern, and Strategy Pattern.
 
 ---
 
-## ✨ Features
+## Features
 
 - Create a new matcha order.
 - Choose from different matcha drinks.
@@ -42,7 +36,7 @@ The main focus of this project is to apply:
 
 ---
 
-## 🖥️ Console UI Preview
+## Console UI Preview
 
 ```text
 ====================================
@@ -77,7 +71,7 @@ Thank you for visiting Matcha Bar!
 
 ---
 
-## 🧾 Available Drinks
+## Available Drinks
 
 | #   | Drink             | Base Price |
 | --- | ----------------- | ---------- |
@@ -89,7 +83,7 @@ Thank you for visiting Matcha Bar!
 
 ---
 
-## 🧋 Available Toppings
+## Available Toppings
 
 | Topping         | Price |
 | --------------- | ----- |
@@ -101,7 +95,7 @@ Thank you for visiting Matcha Bar!
 
 ---
 
-## 🏷️ Discount Options
+## Discount Options
 
 | Discount Type       | Percentage |
 | ------------------- | ---------- |
@@ -112,7 +106,7 @@ Thank you for visiting Matcha Bar!
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```text
 MatchaBarApp
@@ -156,7 +150,7 @@ MatchaBarApp
 
 ---
 
-## 📂 Folder Description
+## Folder Description
 
 | Folder       | Description                                                             |
 | ------------ | ----------------------------------------------------------------------- |
@@ -169,7 +163,7 @@ MatchaBarApp
 
 ---
 
-## 🎯 Object-Oriented Programming
+## Object-Oriented Programming
 
 This project applies OOP concepts through the main classes and their relationships.
 
@@ -185,8 +179,6 @@ Examples:
 - `MatchaDrink`
 - `StudentDiscount`
 
----
-
 ### Inheritance
 
 All drink classes inherit from the abstract class `MatchaDrink`.
@@ -196,8 +188,6 @@ public class StrawberryMatcha : MatchaDrink
 ```
 
 This helps share common drink properties while allowing each drink to have its own details.
-
----
 
 ### Abstraction
 
@@ -215,8 +205,6 @@ public abstract class MatchaDrink
 
 Each specific drink class provides its own description.
 
----
-
 ### Polymorphism
 
 The system can treat different drink types as one general type, which is `MatchaDrink`.
@@ -227,22 +215,15 @@ MatchaDrink drink = MatchaFactory.CreateDrink(drinkChoice);
 
 The actual object can be `ClassicMatcha`, `StrawberryMatcha`, `MangoMatcha`, or any other drink class.
 
----
-
 ### Encapsulation
 
-The `Order` class keeps order details together in one place, including:
-
-- Drink
-- Size
-- Toppings
-- Discount strategy
+The `Order` class keeps order details together in one place, including the selected drink, size, toppings, and discount strategy.
 
 ---
 
-## 🧩 Design Patterns
+## Design Patterns
 
-This project uses two design patterns: **Factory Pattern** and **Strategy Pattern**.
+This project uses two design patterns: Factory Pattern and Strategy Pattern.
 
 ---
 
@@ -260,9 +241,9 @@ The factory returns the correct drink object.
 
 Example:
 
-- Choice 1 creates `ClassicMatcha`
-- Choice 2 creates `StrawberryMatcha`
-- Choice 5 creates `MangoMatcha`
+- Choice 1 creates `ClassicMatcha`.
+- Choice 2 creates `StrawberryMatcha`.
+- Choice 5 creates `MangoMatcha`.
 
 ### Why it was used
 
@@ -305,7 +286,7 @@ Using Strategy Pattern keeps each discount calculation in a separate class and a
 
 ---
 
-## ✅ SOLID Principles
+## SOLID Principles
 
 The project applies SOLID principles in a simple and practical way.
 
@@ -313,16 +294,12 @@ The project applies SOLID principles in a simple and practical way.
 
 Each class has one main responsibility.
 
-Examples:
-
 | Class            | Responsibility                     |
 | ---------------- | ---------------------------------- |
 | `OrderService`   | Calculates subtotal and total.     |
 | `ReceiptPrinter` | Prints the receipt.                |
 | `MatchaFactory`  | Creates drink objects.             |
 | `ConsoleHelper`  | Handles common console operations. |
-
----
 
 ### Open/Closed Principle
 
@@ -332,8 +309,6 @@ For example:
 
 - A new drink can be added by creating a new drink class.
 - A new discount can be added by creating a new discount strategy class.
-
----
 
 ### Liskov Substitution Principle
 
@@ -347,14 +322,10 @@ MatchaDrink drink = new MangoMatcha();
 
 The system will still work correctly.
 
----
-
 ### Interface Segregation Principle
 
 The discount interface is small and focused.
 It only includes the members needed by discount classes.
-
----
 
 ### Dependency Inversion Principle
 
@@ -368,7 +339,7 @@ This makes the order flexible because it can work with any discount strategy.
 
 ---
 
-## 🧼 Clean Code Practices
+## Clean Code Practices
 
 The project follows clean code practices by:
 
@@ -383,7 +354,7 @@ The project follows clean code practices by:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Clone the repository:
 
@@ -405,14 +376,14 @@ dotnet run
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - .NET SDK
 - Code editor such as Visual Studio Code or Visual Studio
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 
 Possible improvements for future versions:
 
@@ -425,18 +396,10 @@ Possible improvements for future versions:
 
 ---
 
-## 📍 Conclusion
+## Conclusion
 
 This project is a simple matcha bar ordering system built as a C# console application.
 
 The goal was to create a small but organized project that applies OOP, SOLID principles, Clean Code, Factory Pattern, and Strategy Pattern in a clear way.
 
 The console interface is kept simple, while the code structure focuses on readability, maintainability, and separation of responsibilities.
-
----
-
-<div align="center">
-
-**Made with 🍵 using C#**
-
-</div>
