@@ -1,0 +1,14 @@
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/bin/Debug/net10.0/MatchaBarApp
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/bin/Debug/net10.0/MatchaBarApp.deps.json
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/bin/Debug/net10.0/MatchaBarApp.runtimeconfig.json
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/bin/Debug/net10.0/MatchaBarApp.dll
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/bin/Debug/net10.0/MatchaBarApp.pdb
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/MatchaBarApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/MatchaBarApp.AssemblyInfoInputs.cache
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/MatchaBarApp.AssemblyInfo.cs
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/MatchaBarApp.csproj.CoreCompileInputs.cache
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/MatchaBarApp.dll
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/refint/MatchaBarApp.dll
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/MatchaBarApp.pdb
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/MatchaBarApp.genruntimeconfig.cache
+/Users/wejdant/Documents/SWE/Project/MatchaBarApp/obj/Debug/net10.0/ref/MatchaBarApp.dll
